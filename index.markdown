@@ -200,7 +200,7 @@ Friday, May 19, 2017
 
 ### Azusa Shares How They Are Dealing With The Fiscal Challenges It Faces.
 
-
+<iframe src="https://docs.google.com/presentation/d/1pxGvzuuV3tFrSgrKHS5bdLedvRLhMrOUnUmMyamhMtI/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="920" height="640" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 40em; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></iframe>
 
 </li>
 <li markdown="1">
