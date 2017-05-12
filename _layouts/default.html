@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="robots" content="noindex" />
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <!--
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Libre+Baskerville:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans:400,400i,700,700i|Source+Sans+Pro:400,400i,700|Roboto+Slab:300,400|Roboto:300i" />
+  <link href="https://fonts.googleapis.com/css?family=Esteban|Open+Sans:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,700|Alegreya:400,400i,700|Crimson+Text:400,400i,700|Gentium+Book+Basic:400,400i,700|PT+Serif:400,400i,700|Source+Serif+Pro:400,600,700|Yrsa&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700|Roboto+Slab:300,400|Roboto:300i" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700|Roboto+Slab:100,300,400,700|Roboto+Condensed:400,700|Roboto:400,400i,700,700i" rel="stylesheet" />
+  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:300,400|Roboto:300i" />
+  <link rel="stylesheet" href="/css/shared.css" />
+</head>
+<body class="{% if page.image %} has-image{% endif %} {% if page.image_focus == 'top' %} image-focus-top {% elsif page.image_focus == 'bottom' %} image-focus-bottom {% endif %}">
+  <header>
+    <a href="/">
+      <h2>
+        <img src="/images/azusa-district.png" width="150" alt="" />
+        <span>Azusa Unified School District</span>
+      </h2>
+    </a>
+
+    <p class="nav-link"><a href="#menu"><span>Menu</span></a></p>
+  </header>
+
+  {% if page.image %}
+    <div class="image">
+
+    {% if page.image_portrait %}
+      <picture>
+        <source srcset="{{ page.image_portrait }}" media="(max-aspect-ratio: 1/1)" />
+        <img src="{{ page.image }}" alt="" />
+      </picture>
+    {% else %}
+      <img src="{{ page.image }}" alt="" />
+    {% endif %}
+
+    </div>
+  {% endif %}
+
+  {% if page.images %}
+  <script>
+  (function() {
+    var images = [
+      {% for image in page.images %}
+        '{{ image }}'{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+    var min = 0;
+    var max = images.length - 1;
+    var random = Math.floor(Math.random() * (max - min + 1) + min);
+    var image = document.querySelector('.image img');
+    image.src = images[random];
+  })();
+  </script>
+  {% endif %}
+
+  <main{% if page.has_wide_content %} class="has-wide-content"{% endif %}>
+    {{ content }}
+  </main>
+
+  <nav id="menu">
+
+    <h1>
+      <a href="/">
+        <img src="/images/azusa-district.png" alt="Azusa Unified School District" />
+      </a>
+    </h1>
+
+    <ul>
+      <li>
+        <h2><a href="/about">About Our District</a></h2>
+        <ul>
+          <li><a href="/superintendent">Superintendent</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/Board/">Board of Education</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/schools">Schools</a></h2>
+        <ul>
+          <li><a href="/schools/#elementary-schools">Elementary Schools</a></li>
+          <li><a href="/schools/#middle-schools">Middle Schools</a></li>
+          <li><a href="/schools/#k-8-schools">K-8 Schools</a></li>
+          <li><a href="/schools/#high-schols">High Schools</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/departments">Departments</a></h2>
+        <ul>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/business">Business</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/edservices">Education</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/hr">Human Resources</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/news">Communications</a></li>
+          <li><a href="http://www.azusa.org/mis/mis.htm">Technology</a></li>
+          <!--
+          <li><a href="/departments">MOT</a></li>
+          <li><a href="/departments">TRC</a></li>
+          -->
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/parents">Parents &amp; Students</a></h2>
+        <ul>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/transcripts">Transcripts</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/enrollment">Enrollment</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="http://info.azusadistrict.jimthoburn.com/staff/">Staff</a></h2>
+        <ul>
+          <li><a href="http://www.azusa.org/mis/mis.htm">Employee Resources</a></li>
+          <li><a href="http://info.azusadistrict.jimthoburn.com/medicalbenefits/">Medical Benefits</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+
+    <form action="https://duckduckgo.com" method="get">
+      <input type="hidden" name="sites" value="azusa.org">
+      <p>
+        <label>
+          <span>Keywords</span>
+          <input type="search" name="q" />
+        </label>
+        <button>Search</button>
+      </p>
+    </form>
+  </nav>
+
+  <footer>
+
+    <div class="contact">
+      <div>
+        <h2>Azusa Unified School District</h2>
+        <p>546 South Citrus Avenue<br />Azusa, CA 91702</p>
+        <p>626-967-6211</p>
+      </div>
+
+      <p><strong>Linda Kaminski, Superintendent</strong><br /><a href="mailto:LKaminski@azusa.org">LKaminski@azusa.org</a></p>
+      <p><strong>Kathy Purpero, Secretary</strong><br /><a href="mailto:kpurpero@azusa.org">kpurpero@azusa.org</a></p>
+    </div>
+
+    <div class="legal">
+      <h2><a href="http://azusa.org"><img src="/images/azusa-district.png" width="100" height="100" alt="Azusa Unified School District" /></a></h2>
+      <p>The District prohibits, at any district school or school activity, unlawful discrimination, harassment, intimidation, and bullying of any student based on the student’s actual race, color, ancestry, national origin, ethnic group, identication, age, religion, marital or parental status, physical or mental disability, sex, sexual orientation, gender, gender identity, or gender expression; the perception of one or more of such characteristics; or association with a person or group with one or more these actual or perceived characteristics.</p>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li><a href="">User Agreement</a></li>
+        <li><a href="">Privacy Notice</a></li>
+        <li><a href="">Security &amp; Data Policy</a></li>
+      </ul>
+      <!--
+      <ul>
+        <li><a href="">Staff Login</a></li>
+        <li><a href="">Site Map</a></li>
+      </ul>
+      -->
+    </div>
+  </footer>
+</body>
+</html>
