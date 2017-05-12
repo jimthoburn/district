@@ -1,6 +1,7 @@
 ---
 title: Parents & Students at Sierra High School
 layout: default
+image: "/images/instagram/14488205_724767584345061_195698733143293952_n.jpg"
 ---
 
 # Parents & Students

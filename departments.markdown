@@ -1,7 +1,7 @@
 ---
-title: Departments at the Azusa High School District
+title: Departments at the Azusa Unified School District
 layout: default
-image: "/images/photos/partnerships.jpg"
+image: "/images/instagram/16908371_1685165375123633_4952913950254563328_n.jpg"
 ---
 
 # Departments

@@ -1,5 +1,5 @@
 ---
-title: Departments at the Azusa High School District
+title: Departments at the Azusa Unified School District
 layout: default
 ---
 
