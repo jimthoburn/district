@@ -59,6 +59,22 @@ has_wide_content: true
   <p style="text-align: left;">Your attendance at Board meetings is an excellent way of becoming better informed about our schools. Learn more <a href="http://info.azusadistrict.jimthoburn.com/Board/">about the board</a>.</p>
 </div>
 
+<div class="summaries">
+  <div class="calendar-summary text" markdown="1">
+## Board Meetings
+
+May 2
+: Teacher of the Year at Gladstone St. School
+
+May 16
+: Powell School-Parent of the Year
+
+June 13
+: Board Meeting
+
+[See full calendar](http://ausd-ca.schoolloop.com/file/1301752507988/1403330970826/5890002130806799482.pdf)
+  </div>
+</div>
 
 <div class="staff-list">
   <h2>Our Superintendent</h2>
@@ -76,20 +92,42 @@ has_wide_content: true
 
 
 <div class="summaries">
-  <div class="calendar-summary text" markdown="1">
-## Board Meetings
 
-May 2
-: Teacher of the Year at Gladstone St. School
 
-May 16
-: Powell School-Parent of the Year
+  <div class="parents-summary text">
 
-June 13
-: Board Meeting
+    <h2>Departments</h2>
 
-[See full calendar](http://ausd-ca.schoolloop.com/file/1301752507988/1403330970826/5890002130806799482.pdf)
+    <ul>
+      <li><a href="http://info.azusadistrict.jimthoburn.com/business">Business</a></li>
+      <li><a href="http://info.azusadistrict.jimthoburn.com/edservices">Education</a></li>
+      <li><a href="http://info.azusadistrict.jimthoburn.com/hr">Human Resources</a></li>
+      <li><a href="http://info.azusadistrict.jimthoburn.com/news">Communications</a></li>
+      <li><a href="http://www.azusa.org/mis/mis.htm">Technology</a></li>
+      <!--
+      <li><a href="/departments">MOT</a></li>
+      <li><a href="/departments">TRC</a></li>
+      -->
+    </ul>
+
   </div>
+
+
+
+  <div class="text">
+
+    <h2>Schools</h2>
+
+    <ul>
+      <li><a href="/schools/#elementary-schools">Elementary Schools</a></li>
+      <li><a href="/schools/#middle-schools">Middle Schools</a></li>
+      <li><a href="/schools/#k-8-schools">K-8 Schools</a></li>
+      <li><a href="/schools/#high-schols">High Schools</a></li>
+    </ul>
+
+  </div>
+
+
 
   <div class="parents-summary text">
 
@@ -98,7 +136,7 @@ June 13
     <p>Learn about graduation requirements, before and after school programs, enrollment and more on the <span class="avoid-break" markdown="1"><a href="/parents/">Parents &amp; Students</a> page</span>.</p>
 
     <ul>
-      <li><a href="http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&amp;piid=&amp;vpid=1425293303004">Graduation Requirements</a></li>
+      <li><a href="http://ausd-ca.schoolloop.com/file/1346924561126/1303568331973/7998241286322136657.pdf">Graduation Requirements</a></li>
       <li><a href="http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&amp;piid=&amp;vpid=1424952194329">Before and After School Programs</a></li>
       <li><a href="http://info.azusadistrict.jimthoburn.com/enrollment">Enroll in Azusa Schools</a></li>
     </ul>
@@ -133,12 +171,6 @@ June 13
     </ul>
     -->
 
-  </div>
-
-  <div style="background: black; color: white; text-align: center;">
-    <a href="">
-      <img src="/images/events/mariachi.jpg" alt="" />
-    </a>
   </div>
 </div>
 
@@ -525,3 +557,11 @@ Call J. Garcia Photo Studio for senior portrait appointments
 </ul>
 
 {% endcomment %}
+
+<div class="summaries">
+  <div style="background: white; color: black; text-align: center;">
+    <a href="">
+      <img src="/images/events/mariachi.jpg" alt="" />
+    </a>
+  </div>
+</div>

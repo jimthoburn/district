@@ -17,7 +17,7 @@ layout: default
 * [Dual Immersion](http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455013998339)
 * [Enroll in Azusa Schools](http://info.azusadistrict.jimthoburn.com/enrollment)
 * [Family Support](http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1430211145599)
-* [Graduation Requirements](http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1425293303004)
+* [Graduation Requirements](http://ausd-ca.schoolloop.com/file/1346924561126/1303568331973/7998241286322136657.pdf)
 * [Instructional Programs](http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1425293303004)
 * [Instructional Standards](http://info.azusadistrict.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1425293308442)
 * [Internet Safety](http://info.azusadistrict.jimthoburn.com/trcis)
