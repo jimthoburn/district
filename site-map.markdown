@@ -3,7 +3,7 @@ title: Website Prototype, Azusa High School
 layout: site-map
 ---
 
-# Azusa High School
+# Azusa Unified School District
 
 ## Website Prototype
 
@@ -13,13 +13,11 @@ layout: site-map
 ### Key Pages
 
 * [Home](/)
-* [About](/about/)
-* [Academics](/academics/)
-* [Staff](/staff/)
-* [Support & Wellness](/wellness/)
-* [Student Life](/life/)
-* [Athletics](/athletics/)
-* [Partnerships](/partnerships/)
+* [About Our District](/about/)
+* [Superintendent](/superintendent/)
+* [Departments](/departments/)
+* [Schools](/schools/)
+* [Parents & Students](/parents/)
 
 </section>
 </section>
