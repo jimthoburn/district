@@ -23,7 +23,7 @@ has_wide_content: true
   <ul>
     <li>
       <a href="/board">
-        <img src="/images/teachers/img_3163.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3320.jpg" width="200" alt="" />
         <h3>Helen Jaramillo</h3>
         <p class="title">President</p>
       </a>
@@ -44,20 +44,18 @@ has_wide_content: true
     </li>
     <li>
       <a href="/board">
-        <img src="/images/teachers/img_3320.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3163.jpg" width="200" alt="" />
         <h3>Jeri Bibles-Vogel</h3>
         <p class="title">Member</p>
       </a>
     </li>
-    <!--
     <li>
-      <a href="http://info.azusadistrict.jimthoburn.com/Board/">
-        <img src="/images/teachers/img_1967.jpg" width="200" alt="" />
+      <a href="/board">
+        <img src="/images/teachers/img_3095.jpg" width="200" alt="" />
         <h3>Yolanda Rodriguez-Peña</h3>
-        <p class="title">Member, Board of Education</p>
+        <p class="title">Member</p>
       </a>
     </li>
-    -->
   </ul>
   <p>Learn more <a href="/board">about the board</a></p>
 </div>
@@ -82,13 +80,13 @@ has_wide_content: true
     <li>
       <a href="/superintendent">
         <img src="/images/teachers/img_3414.jpg" width="200" alt="" />
-        <h3>Eugenio Villa</h3>
+        <h3>Marc Bommarito</h3>
         <p class="title">Assistant Superintendent, Business Services</p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
-        <img src="/images/teachers/img_3518.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3606.jpg" width="200" alt="" />
         <h3>Arturo Ortega</h3>
         <p class="title">Assistant Superintendent, Educational Services</p>
       </a>
