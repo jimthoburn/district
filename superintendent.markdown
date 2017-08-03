@@ -3,9 +3,9 @@ title: Departments at the Azusa Unified School District
 layout: default
 ---
 
-# Superintendent
+# Dr. Linda Kaminski, Superintendent
 
-![](/images/teachers/linda.jpg)
+![](/images/teachers/img_3351.jpg)
 
 Dr. Linda Kaminski joined the District in July 2012.
 

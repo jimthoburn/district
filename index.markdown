@@ -22,29 +22,29 @@ has_wide_content: true
   <h2>Our Board of Education</h2>
   <ul>
     <li>
-      <a href="http://info.azusadistrict.jimthoburn.com/Board/">
-        <img src="/images/teachers/img_2203.jpg" width="200" alt="" />
+      <a href="/board">
+        <img src="/images/teachers/img_3163.jpg" width="200" alt="" />
         <h3>Helen Jaramillo</h3>
         <p class="title">President</p>
       </a>
     </li>
     <li>
-      <a href="http://info.azusadistrict.jimthoburn.com/Board/">
-        <img src="/images/teachers/img_1941.jpg" width="200" alt="" />
+      <a href="/board">
+        <img src="/images/teachers/img_3227.jpg" width="200" alt="" />
         <h3>Xilonin Cruz-Gonzalez</h3>
         <p class="title">Vice-President</p>
       </a>
     </li>
     <li>
-      <a href="http://info.azusadistrict.jimthoburn.com/Board/">
-        <img src="/images/teachers/img_1892.jpg" width="200" alt="" />
+      <a href="/board">
+        <img src="/images/teachers/img_3518.jpg" width="200" alt="" />
         <h3>Paul Naccachian</h3>
         <p class="title">Clerk</p>
       </a>
     </li>
     <li>
-      <a href="http://info.azusadistrict.jimthoburn.com/Board/">
-        <img src="/images/teachers/img_2140.jpg" width="200" alt="" />
+      <a href="/board">
+        <img src="/images/teachers/img_3320.jpg" width="200" alt="" />
         <h3>Jeri Bibles-Vogel</h3>
         <p class="title">Member</p>
       </a>
@@ -63,38 +63,38 @@ has_wide_content: true
 </div>
 
 <div class="staff-list">
-  <h2>Superintendent</h2>
+  <h2>Our Superintendents</h2>
   <ul>
     <li>
       <a href="/superintendent">
-        <img src="/images/teachers/img_2203.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3351.jpg" width="200" alt="" />
         <h3>Dr. Linda Kaminski</h3>
         <p class="title">Superintendent</p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
-        <img src="/images/teachers/img_1892.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3464.jpg" width="200" alt="" />
         <h3>Ramiro Rubalcaba</h3>
         <p class="title">Assistant Superintendent, Human Resources</p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
-        <img src="/images/teachers/img_1854.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3414.jpg" width="200" alt="" />
         <h3>Eugenio Villa</h3>
         <p class="title">Assistant Superintendent, Business Services</p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
-        <img src="/images/teachers/img_1892.jpg" width="200" alt="" />
+        <img src="/images/teachers/img_3518.jpg" width="200" alt="" />
         <h3>Arturo Ortega</h3>
         <p class="title">Assistant Superintendent, Educational Services</p>
       </a>
     </li>
   </ul>
-  <p>Learn more <a href="/superintendent">about our staff</a></p>
+  <p>Learn more <a href="/superintendent">about our superintendent</a></p>
 </div>
 
 <div class="summaries">
