@@ -96,6 +96,16 @@
       height: 1.5em;
       position: relative;
       z-index: 1;
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (min-width: 40em) {
+      header {
+        padding: 1.5em 3em;
+      }
+    }
+    header .navigation {
+      order: -1;
     }
     header h2 {
       margin: 0;
@@ -105,6 +115,28 @@
       height: 3.75em;
       width: auto;
     }
+    header a {
+      color: inherit;
+      text-decoration: none;
+    }
+    header p {
+      font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+      text-transform: uppercase;
+      flex-basis: 10em;
+    }
+    header .search {
+      text-align: right;
+    }
+    header p a img {
+      vertical-align: top;
+      margin-right: 0.25em;
+      height: 1.5em;
+      width: 1em;
+    }
+    header .search a img {
+      width: 1.25em;
+    }
+
 
     nav {
       background-color: rgb(0, 192, 243);
@@ -204,6 +236,8 @@
     color: inherit;
     font-style: inherit;
     text-decoration: inherit;
+    display: block;
+    padding: 1.5em 0;
   }
   .staff-list li h3 {
     margin: 0.75em 0 0 0;
@@ -338,10 +372,18 @@
         <img src="/images/azusa-district.png" width="200" alt="Azusa Unified School District" />
       </a>
     </h2>
-    <!--
-    <p><a href="">Menu</a></p>
-    <p><a href="">Search</a></p>
-    -->
+    <p class="navigation">
+      <a href="http://ausd-ca.schoolloop.com/portal/site_map?d=x&return_url=1502227984233">
+        <img src="/images/icons/menu.svg" width="20" alt="" />
+        <span>Menu</span>
+      </a>
+    </p>
+    <p class="search">
+      <a href="http://ausd-ca.schoolloop.com/search/search_results">
+        <img src="/images/icons/search.svg" height="20" alt="" />
+        <span>Search</span>
+      </a>
+    </p>
   </header>
 
   <img src="/images/photos/students.png" alt="" />
@@ -349,25 +391,25 @@
   <nav>
     <ul>
       <li>
-        <a href="">
+        <a href="http://info.azusadistrict.jimthoburn.com/ourdistrict/">
           <img src="/images/icons/torch.svg" width="200" alt="" />
           About Our District
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="http://info.azusadistrict.jimthoburn.com/schools/">
           <img src="/images/icons/school.svg" width="200" alt="" />
           Our Schools
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="http://info.azusadistrict.jimthoburn.com">
           <img src="/images/icons/calendar.svg" width="200" alt="" />
           Events / Community
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="http://info.azusadistrict.jimthoburn.com/cms/section-d=x&group_id=1346924561126/">
           <img src="/images/icons/family.svg" width="200" alt="" />
           Parents &amp; Students
         </a>
