@@ -53,6 +53,7 @@
     font-weight: inherit;
   }
 
+  /*
   h1,
   body > header h2,
   body > nav    h2,
@@ -75,6 +76,7 @@
     font-style: italic;
     font-family: "Roboto", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
+  */
   .avoid-break {
     display: inline-block;
   }

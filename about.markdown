@@ -1,7 +1,7 @@
 ---
 title: About Azusa Unified School District
 layout: default
-image: "/images/photos/5938344077297689972.jpg_wnp1000.jpg"
+image: "/images/photos/kids.jpg"
 ---
 
 # About Our District

@@ -2,7 +2,7 @@
 title: Azusa Unified School District
 classname: home
 layout: default
-image: "/images/instagram/13706810_274918072884921_1473354698_n.jpg"
+image: "/images/photos/students.jpg"
 has_wide_content: true
 ---
 
@@ -12,11 +12,94 @@ has_wide_content: true
 
   <div>
     <p>Azusa Unified is a district that believes its children deserve the best education possible. Approximately 9,659 students attend Azusa Unified schools which include eleven elementary, three middle and three high schools, as well as an Alternative Education Center.</p>
-
+    <!--
     <p>Learn more <a href="/about">about our district</a></p>
+    -->
   </div>
 
 </div>
+
+<style>
+  .intro-nav {
+    margin-top: 3em;
+    background-color: rgb(0, 192, 243);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    font-weight: bold;
+    font-family: Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  @media (min-width: 60em) { /* --big-screen-width */
+    .intro-nav {
+      margin-left: -3em;
+      margin-right: -3em;
+      margin-bottom: 1.5em;
+    }
+  }
+  .intro-nav ul {
+    margin: 0;
+    max-width: none;
+  }
+  .intro-nav ul,
+  .intro-nav li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    border-width: 0;
+  }
+  .intro-nav a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 1.5em;
+  }
+  @media (min-width: 40em) {
+    .intro-nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+  .intro-nav img {
+    width: 3.75em !important;
+    height: 3.75em !important;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 0.375em !important;
+  }
+</style>
+
+<nav class="intro-nav">
+  <ul>
+    <li>
+      <a href="/about/">
+        <img src="/images/icons/torch.svg" width="200" alt="" />
+        About Our District
+      </a>
+    </li>
+    <li>
+      <a href="/schools/">
+        <img src="/images/icons/school.svg" width="200" alt="" />
+        Our Schools
+      </a>
+    </li>
+    <li>
+      <a href="#calendar">
+        <img src="/images/icons/calendar.svg" width="200" alt="" />
+        Events / Community
+      </a>
+    </li>
+    <li>
+      <a href="/parents/">
+        <img src="/images/icons/family.svg" width="200" alt="" />
+        Parents &amp; Students
+      </a>
+    </li>
+  </ul>
+</nav>
 
 <div class="staff-list">
   <h2>Our Board of Education</h2>
@@ -57,7 +140,9 @@ has_wide_content: true
       </a>
     </li>
   </ul>
+  <!--
   <p>Learn more <a href="/board">about the board</a></p>
+  -->
 </div>
 
 <div class="staff-list">
@@ -74,25 +159,27 @@ has_wide_content: true
       <a href="/superintendent">
         <img src="/images/teachers/img_3464.jpg" width="200" alt="" />
         <h3>Ramiro Rubalcaba</h3>
-        <p class="title">Assistant Superintendent, Human Resources</p>
+        <p class="title">Assistant Superintendent, <span style="display: inline-block">Human Resources</span></p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
         <img src="/images/teachers/img_3414.jpg" width="200" alt="" />
         <h3>Marc Bommarito</h3>
-        <p class="title">Assistant Superintendent, Business Services</p>
+        <p class="title">Assistant Superintendent, <span style="display: inline-block">Business Services</span></p>
       </a>
     </li>
     <li>
       <a href="/superintendent">
         <img src="/images/teachers/img_3606.jpg" width="200" alt="" />
         <h3>Arturo Ortega</h3>
-        <p class="title">Assistant Superintendent, Educational Services</p>
+        <p class="title">Assistant Superintendent, <span style="display: inline-block">Educational Services</span></p>
       </a>
     </li>
   </ul>
+  <!--
   <p>Learn more <a href="/superintendent">about our superintendent</a></p>
+  -->
 </div>
 
 <div class="summaries">
