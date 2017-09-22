@@ -2100,6 +2100,22 @@
     font-family: Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
 
+  .notice {
+    background: rgb(255, 255, 102);
+    padding: 1.5em;
+  }
+
+  .notice h1 {
+    font-size: 1.5em;
+    color: inherit;
+
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    .notice {
+      padding: 3em;
+    }
+  }
 
 
 

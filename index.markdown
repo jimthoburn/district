@@ -2,13 +2,13 @@
 title: Azusa Unified School District
 classname: home
 layout: default
-image: "/images/photos/students.jpg"
+image: "/images/instagram/13706810_274918072884921_1473354698_n.jpg"
 has_wide_content: true
 ---
 
 <h1>Dedicated <span class="lowercase">to</span> Academic Success</h1>
 
-<div markdown="1">
+<div>
 
   <div>
     <p>Azusa Unified is a district that believes its children deserve the best education possible. Approximately 9,659 students attend Azusa Unified schools which include eleven elementary, three middle and three high schools, as well as an Alternative Education Center.</p>
@@ -49,11 +49,14 @@ has_wide_content: true
     padding-left: 0;
     border-width: 0;
   }
+  .intro-nav li {
+    padding: 0 !important; /* SHIM: Override list.css */
+  }
   .intro-nav a {
     display: block;
     color: inherit;
     text-decoration: none;
-    padding: 1.5em;
+    padding: 0.75em;
   }
   @media (min-width: 40em) {
     .intro-nav ul {
