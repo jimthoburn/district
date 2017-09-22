@@ -6,11 +6,12 @@ image: "/images/instagram/13706810_274918072884921_1473354698_n.jpg"
 has_wide_content: true
 ---
 
-<h1>Dedicated <span class="lowercase">to</span> Academic Success</h1>
-
-<div>
+<div class="mission">
 
   <div>
+
+    <h1>Dedicated <span class="lowercase">to</span> Academic Success</h1>
+
     <p>Azusa Unified is a district that believes its children deserve the best education possible. Approximately 9,659 students attend Azusa Unified schools which include eleven elementary, three middle and three high schools, as well as an Alternative Education Center.</p>
     <!--
     <p>Learn more <a href="/about">about our district</a></p>
@@ -21,8 +22,7 @@ has_wide_content: true
 
 <style>
   .intro-nav {
-    margin-top: 3em;
-    background-color: rgb(0, 192, 243);
+    background-color: rgb(0, 174, 239); /* --light-blue */
     color: white;
     text-align: center;
     padding: 1.5em;
@@ -180,6 +180,7 @@ has_wide_content: true
       </a>
     </li>
   </ul>
+  <p><a href="/superintendent/#message-from-the-superintendent">Message from the Superintendent</a></p>
   <!--
   <p>Learn more <a href="/superintendent">about our superintendent</a></p>
   -->
@@ -259,18 +260,18 @@ May 9
 : Elementary School Band Concert
 
 May 13
-: [Food Bank](#food-bank-on-may-13)<br />_8:30am – 12:00pm_
+: Food Bank<br />_8:30am – 12:00pm_
 
 May 16
 : Parent of the Year at Powell School
 
 May 19
-: [Mariachi de Azusa Concert](#mariachi-de-azusa-concert)
+: Mariachi de Azusa Concert
 
 June 13
 : Board Meeting
 
-[See full calendar](http://ausd-ca.schoolloop.com/file/1301752507988/1403330970826/5890002130806799482.pdf)
+[See full calendar](http://ausd-ca.schoolloop.com/file/1301752507988/1403330970826/678275234706674661.pdf)
   </div>
 
 
@@ -287,6 +288,14 @@ June 13
 
 <ul>
 
+{% comment %}
+<li markdown="1">>
+  <h3>Phones are temporarily down at Foothill Middle School</h3>
+  <p>Telephone service to Foothill Middle School is being worked on. In the meantime, you can contact the school secretary at <a href="jgonzalez@azusa.org">jgonzalez@azusa.org</a>.</p>
+  <p><i>Thursday, September 21, 1:25 p.m.</i></p>
+</li>
+{% endcomment %}
+
 <!--
 
 <li markdown="1">
@@ -299,6 +308,35 @@ June 13
 
 -->
 
+<li markdown="1">
+### Enroll now in preschool!
+
+Call today to enroll: (626) 815-4700
+
+<br />
+
+![Preschool, Now accepting three-year-olds](http://ausd-ca.schoolloop.com/uimg/file/1456828874239/6836305251069042177.jpg_wnp1000.jpg?1485213612451)
+
+![Preescolar, Ahora aceptando niños de tres años de edad](http://ausd-ca.schoolloop.com/uimg/file/1456828874239/5693437231334829367.jpg_wnp1000.jpg?1485213624939)
+
+</li>
+
+<li markdown="1">
+### Regarding DACA
+
+To the Azusa Unified community:
+
+The Trump Administration’s decision to rescind Deferred Action for Childhood Arrivals (DACA) has sent a shock wave through many families, who now worry that some members may be deported to countries they have never known, except maybe as tourists.  But our School Board and I want to reassure students and parents within our school community who are Childhood Arrivals that Azusa Unified School District stands proudly with you.
+
+Azusa Unified is not concerned with the immigration status of students or their families.  We don’t and won’t ask for proof of American citizenship, because that’s not our job.  Education is our work, and we welcome any child who comes to us in need of education.  No one is turned away.
+
+In coming weeks and months, we will officially urge Congress to enact DACA into federal law.  In the meantime, we will continue to ensure that all students and their families, regardless of immigration status, are welcome, respected and protected at our schools.
+
+_Dr. Linda Kaminski_  
+_Superintendent_
+</li>
+
+{% comment %}
 <li markdown="1">
 
 ### Food Bank on May 13
@@ -383,7 +421,7 @@ All 5th-12th grade students are invited to join the AUSD String Orchestra.  Stud
 [Flyer & application - Spanish](http://ausd-ca.schoolloop.com/file/1301752507988/1403330970826/1945530026177803328.pdf)
 
 </li>
-
+{% endcomment %}
 <!--
 <li markdown="1">
 
@@ -725,7 +763,21 @@ Call J. Garcia Photo Studio for senior portrait appointments
 {% endcomment %}
 
 <style>
+.instagram {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: -3em;
+}
+@media (min-width: 60em) {
+  .instagram {
+    margin-bottom: -6em;
+  }
+}
+.instagram > h2,
+.instagram > p {
+  text-align: center;
+}
 .instagram-list {
+  margin-top: 3em;
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
@@ -741,6 +793,11 @@ Call J. Garcia Photo Studio for senior portrait appointments
   }
 }
 </style>
+
+<div class="instagram">
+  <h2>Follow us on <a href="https://www.instagram.com/azusaunifiedsd/">Instagram</a>!</h2>
+  <p>Get news, information and updates from the district.</p>
+
 
 <div class="instagram-list">
 
@@ -760,6 +817,9 @@ Call J. Garcia Photo Studio for senior portrait appointments
 
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
+</div>
+
+{% comment %}
 
 <section style="max-width: 40em; margin-left: auto; margin-right: auto;">
 
@@ -775,4 +835,6 @@ Call J. Garcia Photo Studio for senior portrait appointments
 </ul>
 
 </section>
+
+{% endcomment %}
 

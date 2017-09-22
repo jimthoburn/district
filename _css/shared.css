@@ -58,9 +58,8 @@
     background-image: url(/images/icons/menu.svg);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: auto 1em;
+    background-size: auto 0.75em;
     padding-left: 1.5em;
-    text-transform: uppercase;
     /*
     <img src="/images/icons/menu.svg" width="20" alt="">
     transform: skew(25deg, -25deg) translate(-0.75em, 0.125em);
@@ -143,17 +142,41 @@
     width: 6em;
   }
 
+  .mission,
+  main .notice,
+  .instagram,
   .staff-list {
     margin-left: calc(var(--line-height) * -1);
     margin-right: calc(var(--line-height) * -1);
     padding: 1px calc(var(--line-height) * 1) calc(var(--line-height) * 1);
   }
   @media (min-width: 60em) { /* --big-screen-width */
+    .mission,
+    main .notice,
+    .instagram,
     .staff-list {
       margin-left: calc(var(--line-height) * -2);
       margin-right: calc(var(--line-height) * -2);
       padding: 1px calc(var(--line-height) * 2) calc(var(--line-height) * 1);
     }
+  }
+  .mission {
+    margin-top: calc(var(--line-height) * -1);
+    margin-bottom: calc(var(--line-height) * -1);
+    background-color: var(--light-blue);
+    color: white;
+    padding: calc(var(--line-height) * 1) calc(var(--line-height) * 1);
+  }
+  @media (min-width: 60em) { /* --big-screen-width */
+    .mission {
+      margin-top: calc(var(--line-height) * -2);
+      margin-bottom: calc(var(--line-height) * -2);
+      padding: calc(var(--line-height) * 2) calc(var(--line-height) * 2);
+    }
+  }
+  .mission h1 {
+    color: inherit;
+    margin-top: 0;
   }
 
   .staff-list {
@@ -171,7 +194,7 @@
 
   /*
   .introduction h2 {
-    font-family: Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Merriweather, Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
   */
 
@@ -197,21 +220,32 @@
 
   /* Override styles in type.css */
   body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    font-family: Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Merriweather, Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  .announcements > ul > li h3 {
+    font-size: 1.5em;
+    margin-top   : calc(var(--line-height) / 1.5em);
+    margin-bottom: calc(var(--line-height) / 1.5em / 2);
   }
 
   .notice {
     background: rgb(255, 255, 102);
     padding: calc(var(--line-height) * 1);
+    position: relative;
+    z-index: 1;
+    border-bottom: 2px solid white;
   }
   .notice h1 {
     font-size: 1.5em;
     color: inherit;
-
+  }
+  .notice a {
+    color: inherit;
   }
   @media (min-width: 60em) { /* --big-screen-width */
     .notice {
