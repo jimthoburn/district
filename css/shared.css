@@ -2165,8 +2165,21 @@
   }
 
   .notice h1 {
-    font-size: 1.5em;
+    margin: 0;
+    line-height: inherit;
+    font-size: inherit;
     color: inherit;
+  }
+
+  .notice p {
+    margin: 0;
+    max-width: none;
+  }
+
+  .notice .note {
+    font-style: italic;
+    font-size: 0.75em;
+    line-height: 2;
   }
 
   .notice a {
