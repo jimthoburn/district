@@ -2152,7 +2152,7 @@
 
   .announcements > ul > li h3 {
     font-size: 1.5em;
-    margin-top: 1em;
+    margin-top   : 0;
     margin-bottom: 0.5em;
   }
 
@@ -2216,5 +2216,28 @@
     height: 70vh;
     min-height: 45vw;
   }
+
+  .summaries div {
+    background-color: transparent;
+  }
+
+  .announcements header,
+  .announcements li:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .announcements > ul > li,
+  .announcements > ul > li:first-child {
+    border-top: 0;
+  }
+
+  .announcements {
+    padding-top: 0;
+  }
+
+  .announcements header {
+    padding-top: 3em;
+  }
+
 
 /*# sourceMappingURL=shared.css.map */

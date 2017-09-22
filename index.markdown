@@ -326,9 +326,11 @@ Call today to enroll: (626) 815-4700
 
 <br />
 
-![Preschool, Now accepting three-year-olds](http://ausd-ca.schoolloop.com/uimg/file/1456828874239/6836305251069042177.jpg_wnp1000.jpg?1485213612451)
+![Preschool, Now accepting three-year-olds](http://ausd-ca.schoolloop.com/uimg/file/1500707875578/6855160646746743600.jpg_wnp1000.jpg?1502127454460)
 
-![Preescolar, Ahora aceptando niños de tres años de edad](http://ausd-ca.schoolloop.com/uimg/file/1456828874239/5693437231334829367.jpg_wnp1000.jpg?1485213624939)
+<br />
+
+![Preescolar, Ahora aceptando niños de tres años de edad](http://ausd-ca.schoolloop.com/uimg/file/1500707875578/3258429489549317607.jpg_wnp1000.jpg?1502127525867)
 
 </li>
 
