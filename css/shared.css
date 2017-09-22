@@ -663,8 +663,10 @@
   @supports ((-o-object-fit: cover) or (object-fit: cover)) {
     body.has-image > header {
       position: absolute;
+      /*
       top: 0;
       left: 0;
+      */
       width: 100%;
       box-sizing: border-box;
     }
@@ -2051,6 +2053,11 @@
     }
   }
 
+  main .notice {
+    margin-top: -1.5em;
+    padding-top: 2.25em;
+  }
+
   .mission {
     margin-top: -1.5em;
     margin-bottom: -1.5em;
@@ -2168,7 +2175,7 @@
 
   @media (min-width: 60em) { /* --big-screen-width */
     .notice {
-      padding: 3em;
+      padding: 1.5em 3em;
     }
   }
 
