@@ -56,13 +56,26 @@ has_wide_content: true
     display: block;
     color: inherit;
     text-decoration: none;
-    padding: 0.75em;
+    padding: 1.5em 0.75em;
   }
-  @media (min-width: 40em) {
-    .intro-nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+  .intro-nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .intro-nav li {
+    float: left;
+    width: 50%;
+  }
+  .intro-nav li:nth-child(2n+1) {
+    clear: both;
+  }
+  @media (min-width: 60em) {
+    .intro-nav li:nth-child(2n+1) {
+      clear: none;
+    }
+    .intro-nav li {
+      width: 25%;
     }
   }
   .intro-nav img {
