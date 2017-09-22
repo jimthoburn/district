@@ -192,6 +192,17 @@
     justify-content: space-around;
   }
 
+  @media (min-width: 80em) {
+    .staff-list li {
+      width: 20%;
+    }
+  }
+
+  .staff-list li a {
+    display: block;
+    max-width: 20em;
+  }
+
   /*
   .introduction h2 {
     font-family: Merriweather, Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -253,8 +264,27 @@
     }
   }
 
-  .intro-nav a {
+  .intro-nav {
+    font-weight: bold;
     font-family: Merriweather, Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
 
+  /*
+  @media (min-width: 100em) {
+    .summaries {
+      display: flex;
+    }
+    .summaries > * {
+      flex-basis: 50%;
+    }
+  }
+  */
 
+  body.has-image:not(.image-focus-bottom) > header > a {
+    bottom: 2em;
+  }
+
+  .image > img[src*="14488205_724767584345061_195698733143293952_n"] {
+    height: 70vh;
+    min-height: 45vw;
+  }

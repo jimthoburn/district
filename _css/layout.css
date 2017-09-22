@@ -145,7 +145,7 @@
       @media (min-aspect-ratio: 1/1) {
         .image img {
           height: 70vh;
-          min-height: 40vmax;
+          min-height: 40vw;
         }
       }
       body.image-focus-top .image img {
@@ -239,7 +239,7 @@
       body.has-image > header {
         height: 70vh;
         min-height: 9em;
-        min-height: 40vmax;
+        min-height: 40vw;
       }
     }
     body.has-image:not(.image-focus-bottom) > header > a {

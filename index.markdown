@@ -28,8 +28,6 @@ has_wide_content: true
     padding: 1.5em;
     margin-left: -1.5em;
     margin-right: -1.5em;
-    font-weight: bold;
-    font-family: Cardo, "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
   @media (min-width: 60em) { /* --big-screen-width */
     .intro-nav {
@@ -788,6 +786,7 @@ Call J. Garcia Photo Studio for senior portrait appointments
 .instagram > h2,
 .instagram > p {
   text-align: center;
+  max-width: none;
 }
 .instagram-list {
   margin-top: 3em;

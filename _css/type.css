@@ -95,9 +95,15 @@
     margin-bottom: calc(var(--line-height) / 2em / 2);
   }
 
-  @media (min-width: 45em), (min-height: 45em) {
+  @media (min-width: 45em) {
     main h1 {
-      font-size: 5vmax;
+      font-size: 5vw;
+    }
+  }
+
+  @media (min-height: 45em) and (max-aspect-ratio: 1/1) {
+    main h1 {
+      font-size: 5vh;
     }
   }
 
