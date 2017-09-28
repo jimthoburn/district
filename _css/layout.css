@@ -156,6 +156,9 @@
       body.image-focus-bottom .image img {
         object-position: bottom;
       }
+      body.image-focus-middle .image img {
+        object-position: 50% 75%;
+      }
   }
 
   @media (min-width: 1160em) { /* --big-screen-width */

@@ -806,6 +806,10 @@
         -o-object-position: bottom;
            object-position: bottom;
       }
+      body.image-focus-middle .image img {
+        -o-object-position: 50% 75%;
+           object-position: 50% 75%;
+      }
   }
 
   @media (min-width: 1160em) { /* --big-screen-width */

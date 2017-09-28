@@ -2,6 +2,7 @@
 title: Board of Education at the Azusa Unified School District
 layout: default
 image: "/images/instagram/17334172_1273041329449145_380031054381056000_n.jpg"
+image_focus: middle
 ---
 
 # Board of Education
